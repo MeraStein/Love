@@ -12,7 +12,13 @@ yesBtn.addEventListener('click', function() {
     createLoveYouState();
 });
 
+
 noBtn.addEventListener('mouseenter', function() {
+    swapBtns();
+});
+
+
+noBtn.addEventListener('click', function() {
     swapBtns();
 });
 
