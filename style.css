@@ -1,0 +1,51 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 300%;
+    align-items: center;
+    color: lightblue;
+    padding: 1%;
+    margin-top: 12%;
+}
+
+.div-btns{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: auto;
+    margin: auto;
+    width: 100%;
+    height: 20vh;
+    top: 6%;
+    gap: 3%
+}
+
+button{
+    width: 10vh;
+    height: 7vh;
+    background-color: white;
+    border: black 0.5vh solid;
+    border-radius: 20vh;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3vh;
+}
+
+button:hover {
+    background-color:aquamarine;
+}
+
+#cat-icon{
+    width: 17vh;
+    height: auto;
+}
